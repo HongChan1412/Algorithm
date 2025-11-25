@@ -14,7 +14,7 @@ def solution(code):
                 continue
             if i % 2 == 1:
                 answer += code[i]
-    if answer == "":
+    if answer == '':
         answer = "EMPTY"
 
     return answer
