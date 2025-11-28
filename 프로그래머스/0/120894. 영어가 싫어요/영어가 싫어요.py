@@ -5,7 +5,6 @@ def solution(numbers):
     temp = ""
     for i in numbers:
         temp += i
-        print(temp)
         if temp in numbers_list:
             if temp == "zero":
                 answer += "0"
