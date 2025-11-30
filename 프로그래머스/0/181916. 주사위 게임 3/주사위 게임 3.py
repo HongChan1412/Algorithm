@@ -1,6 +1,7 @@
 from collections import Counter
 def solution(a, b, c, d):
     answer = 0
+    answer = 0
     cnt = Counter([a, b, c, d])
     
     if len(cnt) == 1:
